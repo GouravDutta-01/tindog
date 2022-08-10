@@ -158,3 +158,11 @@ p{
     transform: rotate(0);
   }
 }
+
+@media (max-width: 450px) {
+  .big-heading {
+    font-weight: 900;
+    font-size: calc(2rem + 1.5vw);
+    line-height: 1.5;
+  }
+}
